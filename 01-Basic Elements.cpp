@@ -31,7 +31,10 @@ int main()
     int e {five()};
     std::cout << e << '\n';
 
-    
+    const int coins{10};
+
+    coins += 5;
+
 
 
     std::cin.get();
